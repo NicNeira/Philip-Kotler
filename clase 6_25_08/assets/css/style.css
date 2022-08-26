@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+nav{
+    align-content: space-between;
+}
+ul{
+    display: flex-bo;
+    text-decoration: none;
+    align-content: space-between;
+    
+
+}
+li{
+    display: flex;
+    text-decoration: none;
+    align-content: space-between;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    align-content: space-between;
+}
+
+p {
+    color: #1c1c1c;
+    font-family: futura;
+}

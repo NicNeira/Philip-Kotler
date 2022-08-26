@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio - Philip Kotler</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/default-favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+</head>
+<body>
+    <!-- Etiqueta header para dividir las secciones dentro de la pagina -->
+    <header>
+        <!-- etiqueta menu de navegacin -->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Philip Kotlerr</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Bio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Libros
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Libro1</a></li>
+                      <li><a class="dropdown-item" href="#">Libro2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Libro3</a></li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="container-fluid">
+        <h1>Biography</h1>
+        <p>ABOUT PHILIP</p>
+    <p>
+        <strong>Philip Kotler</strong> is known around the world as the “father of modern marketing.” For over 50 years he has taught at the Kellogg School of Management at Northwestern University. Kotler’s book Marketing Management is the most widely used textbook in marketing around the world. This is his story – How a Ph.D. economist from M.I.T. became the world’s leading marketing authority, the Father of Modern Marketing.
+    </p>
+
+    <p>
+        Philip Kotler is the S. C. Johnson Distinguished Professor of International Marketing at the J. L. Kellogg School of Management.  He has been honored as one of the world’s leading marketing thinkers.  He received his M.A. degree in economics (1953) from the University of Chicago and his Ph.D. degree in economics (1956) from the Massachusetts Institute of Technology (M.I.T.), and has received honorary degrees from 22 universities including Stockholm University, the University of Zurich, Athens University of Economics and Business, Budapest School of Economics and Administrative Science, the Kracow School of Business and Economics, and DePaul University.  
+    </p>
+    <p>
+        He is author of over one hundred and fifty articles and 90 books, including Principles of Marketing, Marketing for Hospitality and Tourism, Strategic Marketing for Nonprofit Organizations, Social Marketing, Marketing Places, The Marketing of Nations, Confronting Capitalism, Democracy in Decline, and Advancing the Common Good.  His research covers strategic marketing, consumer marketing, business marketing, professional services marketing, and e-marketing. He has been a consultant to IBM, General Electric, AT&T, Bank of America, Merck, Motorola, Ford, and others.  He has lectured several times in Italy, Sweden, China, Japan, India, Indonesia, Australia, Mexico, Brazil, Chile, and many other countries.  
+    </p>
+    <p>
+        For more biographical information on Philip Kotler, see <a href="https://www.amazon.com/My-Adventures-Marketing-Autobiography-Philip/dp/0990576760" target="_blank"> My Adventures in Marketing</a>, available at <a href="https://www.amazon.com/My-Adventures-Marketing-Autobiography-Philip/dp/0990576760"> Amazon</a>.  Also see My Life as a Humanist, Amazon 2022.
+    </p>
+
+    <img class="img-fluid"
+    src="https://images.squarespace-cdn.com/content/v1/5b70ba0755b02c6b273319ec/1540137268996-J8NQ2MT49AXDPLJC2JTP/Book+cover.png?format=500w" alt="imgPhilip">
+
+    <img class="img-fluid"
+    src="https://images.squarespace-cdn.com/content/v1/5b70ba0755b02c6b273319ec/13a4935d-9098-49fc-b8f7-136b77398b95/Book+cover+for+My+Life+as+a+Humanist.docx.png?format=500w" alt="imgPhilip2">
+    <br/>
+    </main>
+
+    <!-- Elementos de bootstrap -->
+    <div id="form-mensaje-exitoso" class="alert alert-success" role="alert" style="display: none;">
+        <ul></ul>
+    </div>
+
+    <div id="form-mensaje-error" class="alert alert-danger" role="alert" style="display: none;">
+        <ul></ul>
+    </div>
+
+    <!-- formulario -->
+    <section>
+        <form action="#" method="get" autocomplete="off">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombrex">
+        <br/>
+
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="correo" id="correo">
+        <br/>
+
+        <input type="radio" name="genero" id="masculino" value="M">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="femenino" value="F">
+        <label for="femenino">Femenino</label>
+        <br>
+        <h2>Intereses</h2>
+        <input type="checkbox" value="Marketing Digital" id="marketing-digital" name="intereses">
+        <label for="marketing-digital">Marketing Digital</label>
+        <br>
+        <input type="checkbox" value="Juegos" id="juegos" name="intereses">
+        <label for="juegos">Juegos</label>
+        <br>
+        <input type="checkbox" value="Libros" id="libros" name="intereses">
+        <label for="libros">Libros</label>
+        <!-- <input type="submit" value="Suscribir"> -->
+        <!-- De preferencia en un form utilizar button -->
+        <br/>
+        <button  id="btn-suscribir" type="button" >Suscribir</button>
+    </form>
+    </section>
+    <!-- Seccion footer (pie de pagina) -->
+
+
+    <footer>
+        <p>
+            PHILIP KOTLER, 1281 GULF OF MEXICO DRIVE, APT. 907, LONGBOAT KEY, FL. 34228, USAPKOTLER@AOL.COM
+        </p>
+        <p>
+           <a href="https://es.squarespace.com/"> Powered by Squarespace </a>
+        </p>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<!-- <iframe id="player" style="position: absolute; inset: 0px 0px 0px -385.444px; width: 904.889px; height: 509px;" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="Philip Kotler: American Marketing Association’s first “Leader in Marketing Thought.”" width="640" height="360" src="https://www.youtube.com/embed/JqgfHFfJuu4?autohide=1&autoplay=0&contro…=0&showinfo=0&wmode=opaque&origin=https%3A%2F%2Fwww.pkotler.org&widgetid=1" class="background-video ready">…</iframe> -->
